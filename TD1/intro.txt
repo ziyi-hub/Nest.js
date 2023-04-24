@@ -1,0 +1,60 @@
+NestJs c'est quoi ?
+
+Nestjs est un Framwork Node.js qui permet de crée principalement des APIs efficaces et évplutive.
+
+La popularité de NestJs a énormément augmenté, grâce à ses fontionnalités d'excellences.
+
+En 2021, NestJs a explosé en popularité avec plus de 40 000 stars sur github.
+
+- Nestjs permet de dévélopper des app serveur  basé sur : Node.js Express ou Fastify, TS
+
+- Ouvert à GraphQL, Websockets, monde des microservices (Redis, MQTT, gRPC, etc)
+
+- Fortment inspiré de l'architecture d'Angular
+- La même structure
+- La même technologie
+- Le même patternes
+
+- Intergrate une libraire de test unitaire "Jest"
+
+- Est compatible avec de nombreaux plugins
+    socket.io
+    mongoose
+    swagger
+    Prisma
+
+NestJs est adapté aux débutants car il possède une bonne structure de base et
+des outils d'interface de ligne de commande (CLI) facile à utiliser
+
+NestJS founit le module, le service, le controlleur et pile de test pour vous aider à démarrer.
+
+
+
+
+Les Providers (Fournisseurs)
+
+Les Fournisseurs ou encore appelées Providers ou un service sont un cincept fontanmental
+De nombreuses de classes de Nest de base peuvent être traitées comme un fournisseur: services, référentiels, usines, assistances, etc...
+
+L'idée principale d'un fournisseur est qu'elle peut être injectées en tant que dépendance
+Cela signifie que les objects peuvent créer diverses ralatoins les uns avec les autres, et la fontioin de "câblage" des
+instances d'object peux être largement déléguée au système d'éxecution Nest laissant au développeur la pure logique composant.
+
+En MVC, les controlleurs doivent gerer les enquetes HTTP et deleguier les plus complexes aux services.
+Les fournisseurs soivent être déclarés comme providers dans les modules. Ces classes de services peuvvent également être partagées à
+partir de leur module de déclaration en se faisant lister dans la propriété "export" du décorateur @Modules()
+
+
+
+
+Controlleur
+
+/vgw
+Les controllers sont directement déclenchés par le router. C’est l’url dans votre fenetre de navigateur qui commande l’execution d’un controller en particulier.
+
+Autrement dit, c’est le mécanisme de routage qui décide quel controller reçoit quelle requête. Fréquemment, chaque controller a plus d’une route et plusieurs route peuvent commander l’exécution de differentes actions.
+
+Le controller est chargé de traiter les demandes et de renvoyer les réponses au client. Il va, pour traiter la demande s’appuyer sur les services disponibles.
+
+
+
